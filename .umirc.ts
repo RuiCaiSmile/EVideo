@@ -25,7 +25,6 @@ export default defineConfig({
       routes: [
         { exact: true, path: '/', component: '@/pages/index' },
         { exact: true, path: '/chat', component: '@/pages/Chat' },
-        { exact: true, path: '/about', component: '@/pages/About' },
       ],
     },
   ],
